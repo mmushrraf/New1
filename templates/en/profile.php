@@ -23,6 +23,9 @@
 </div><!-- /END/ .left-nav -->
 
 
+
+
+
 <div id="content">
 	<div id="content-header">
 		<h1>Profile | <small> <?php echo $_SESSION['user_name'];?></small></h1>
