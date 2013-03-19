@@ -11,6 +11,7 @@ include_once("../includes/config.php");
 //check if user is valid
 if(!isLoggedIn()) { header("location: ../login.php"); exit;}
 
+
 $processableFields = array(
         "phonenumber" => "homephone",
         "baddress1" => "baddress1",
